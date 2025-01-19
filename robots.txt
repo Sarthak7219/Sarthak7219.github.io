@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://sarthak7219.github.io/sitemap.xml
+Host: https://sarthak7219.github.io
