@@ -1,11 +1,12 @@
 {
+  "homepage": "https://sarthak7219.github.io",
   "name": "v1",
   "description": "Personal Website V1",
   "version": "1.0.0",
-  "author": "Yashita Namdeo <yashita.namdeo2000@gmail.com>",
+  "author": "Sarthak Rangari <sarthakrangari788@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yashitanamdeo/yashitanamdeo.github.io"
+    "url": "https://github.com/Sarthak7219/Sarthak7219.github.io"
   },
   "keywords": [
     "gatsby"
@@ -13,12 +14,13 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "predeploy": "npm run build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public -b main"
+    "deploy": "gatsby build && gh-pages -d public"
   },
   "husky": {
     "hooks": {

@@ -1,38 +1,38 @@
 module.exports = {
-  siteTitle: 'Yashita Namdeo',
+  siteTitle: 'Sarthak Rangari',
   siteDescription:
-    'Yashita Namdeo is an incoming Software Developer, based in India, who loves learning new things and helping tech beginners.',
+    'Sarthak Rangari is a passionate Software Developer, based in India, who loves coding and learning new things.',
   siteKeywords:
-    'Yashita Namdeo, Yashita, Namdeo, yashitanamdeo, software engineer, web developer, javascript, python, java, svvv, indore',
-  siteUrl: 'https://yashitanamdeo.github.io/',
+    'Sarthak Rangari, Sarthak, Rangari, sarthakrangari, software engineer, web developer, javascript, python, django, iitr, maharashtra',
+  siteUrl: 'https://sarthak7219.github.io',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-45666519-2',
   googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
-  name: 'Yashita Namdeo',
-  location: 'Indore, India',
-  email: 'yashita.namdeo2000@gmail.com',
-  github: 'https://github.com/yashitanamdeo',
+  name: 'Sarthak Rangari',
+  location: 'Maharashtra, India',
+  email: 'sarthakrangari788@gmail.com',
+  github: 'https://github.com/Sarthak7219',
   twitterHandle: '@',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/yashitanamdeo',
+      url: 'https://github.com/Sarthak7219',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/yashitanamdeo/',
+      url: 'https://www.linkedin.com/in/sarthak-rangari-03a078229',
     },
     {
       name: 'Codepen',
-      url: 'https://codepen.io/yashitanamdeo',
+      url: '@',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/yashitanamdeo',
+      url: 'https://www.instagram.com/sarthak_rangari78/',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/',
+      url: 'https://x.com/SarthakRangari',
     },
   ],
 

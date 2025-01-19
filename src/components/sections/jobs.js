@@ -21,11 +21,11 @@ const StyledTabs = styled.div`
 const StyledTabList = styled.ul`
   display: block;
   position: relative;
-  width: max-content;
   z-index: 3;
   padding: 0;
   margin: 0;
   list-style: none;
+  width: 165px;
 
   ${media.thone`
     display: flex;
@@ -60,6 +60,7 @@ const StyledTabList = styled.ul`
 `;
 const StyledTabButton = styled.button`
   ${mixins.link};
+
   display: flex;
   align-items: center;
   width: 100%;
@@ -202,7 +203,7 @@ const Jobs = ({ data }) => {
             data.map(({ node }, i) => {
               const { company } = node.frontmatter;
               return (
-                <li key={i}>
+                <li key={i} style={{ width: '100%' }}>
                   <StyledTabButton
                     isActive={activeTabId === i}
                     onClick={() => setActiveTabId(i)}
@@ -212,7 +213,9 @@ const Jobs = ({ data }) => {
                     aria-selected={activeTabId === i ? true : false}
                     aria-controls={`panel-${i}`}
                     tabIndex={activeTabId === i ? '0' : '-1'}>
-                    <span>{company}</span>
+                    <span style={{ width: '100%', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                      {company}
+                    </span>
                   </StyledTabButton>
                 </li>
               );

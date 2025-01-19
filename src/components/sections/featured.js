@@ -234,7 +234,8 @@ const Featured = ({ data }) => {
                         href={external}
                         target="_blank"
                         rel="nofollow noopener noreferrer"
-                        aria-label="External Link">
+                        aria-label="External Link"
+                        style={{ zIndex: '10' }}>
                         {title}
                       </a>
                     ) : (
