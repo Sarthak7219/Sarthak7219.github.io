@@ -16,15 +16,15 @@ module.exports = {
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/Sarthak7219',
+      url: 'https://github.com/Sarthak7219/',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/sarthak-rangari-03a078229',
+      url: 'https://www.linkedin.com/in/sarthak-rangari-03a078229/',
     },
     {
-      name: 'Codepen',
-      url: '@',
+      name: 'Leetcode',
+      url: 'https://leetcode.com/u/sarthak2103/',
     },
     {
       name: 'Instagram',
@@ -32,7 +32,7 @@ module.exports = {
     },
     {
       name: 'Twitter',
-      url: 'https://x.com/SarthakRangari',
+      url: 'https://x.com/SarthakRangari/',
     },
   ],
 

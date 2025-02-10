@@ -16,6 +16,7 @@ import {
   IconStar,
   IconTwitter,
   IconZap,
+  IconLeetcode,
 } from '@components/icons';
 
 const FormattedIcon = ({ name }) => {
@@ -50,6 +51,8 @@ const FormattedIcon = ({ name }) => {
       return <IconTwitter />;
     case 'Zap':
       return <IconZap />;
+    case 'Leetcode':
+      return <IconLeetcode />;
     default:
       return <IconExternal />;
   }

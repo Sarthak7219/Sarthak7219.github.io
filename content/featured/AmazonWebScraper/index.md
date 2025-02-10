@@ -1,16 +1,16 @@
 ---
 date: '3'
-title: 'Automated Amazon Data Scraper Using Selenium'
+title: 'Smart Job Finder and Cold Emailer'
 cover: 'image.png'
-github: 'https://github.com/Sarthak7219/selenium-data-scraper'
-external: '#'
+github: 'https://github.com/Sarthak7219/Hired-Project'
+external: 'https://github.com/Sarthak7219/Hired-Project'
 tech:
   - Python
   - Selenium
-  - XPath
-  - Pandas
-  - Excel
+  - FastAPI
+  - Emailing
+  - Web Scraping
 showInProjects: true
 ---
 
-Developed a Selenium-based web scraping tool to extract product details (names, prices, reviews) from Amazon, automating browser interactions with XPath. Data was extracted from 100+ pages with improved efficiency and structured using Pandas, then exported to Excel for analysis.
+Built a Selenium-based Python tool with a FastAPI backend to automate job searching, filter listings, and send personalized cold emails with resumes. Enabled HR data upload for automatic matching, reducing job search time by 90% and increasing shortlist chances by 50%.
